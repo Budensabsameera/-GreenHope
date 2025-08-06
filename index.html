@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NGO Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Helping Hands</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Helping Hands</h2>
+      <p>Together, we can make a difference.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Helping Hands is a non-profit NGO focused on community upliftment, education, and healthcare. Our mission is to empower underprivileged sections of society with equal opportunities and resources.</p>
+    </div>
+  </section>
+
+  <section id="volunteer" class="form-section">
+    <div class="container">
+      <h2>Become a Volunteer</h2>
+      <form id="volunteerForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Why do you want to volunteer?" required></textarea>
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
